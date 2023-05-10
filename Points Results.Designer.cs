@@ -42,11 +42,11 @@
             this.tableResults.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableResults.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableResults.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableResults.Location = new System.Drawing.Point(38, 62);
+            this.tableResults.Location = new System.Drawing.Point(39, 64);
             this.tableResults.Name = "tableResults";
             this.tableResults.RowCount = 1;
             this.tableResults.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableResults.Size = new System.Drawing.Size(712, 597);
+            this.tableResults.Size = new System.Drawing.Size(712, 2583);
             this.tableResults.TabIndex = 0;
             // 
             // label1
@@ -85,7 +85,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(788, 689);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(788, 675);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

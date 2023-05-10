@@ -390,7 +390,7 @@ namespace NewGraphicsPackage
             else
             {
                 float xP = (float)Convert.ToDouble(txtBox_scaling_xP.Text);
-                float yP = (float)Convert.ToDouble(txtBox_scaling_xP.Text);
+                float yP = (float)Convert.ToDouble(txtBox_scaling_yP.Text);
 
                 point1 = ScaleAboutPoint(x1, y1, sx, sy, xP, yP);
                 point2 = ScaleAboutPoint(x2, y2, sx, sy, xP, yP);
